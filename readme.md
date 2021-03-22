@@ -21,7 +21,7 @@ Test files:
 * src/modules/main/ui/atoms/Card/Card.test.tsx
 * src/modules/main/ui/molecules/ImageGallery/ImageGallery.test.tsx
 
-To run the project, see [How to run](#How to run).
+To run the project, see [How to run](#Howtorun).
 
 ## Code Exercise
 
@@ -36,7 +36,7 @@ After finishing the project, spent some time adding the code exercise to it, und
 
 ## Notes
 
-* The images are not uniform on size, I'd tried different configuration on how to fill the image on the card. For instance, trying to fill the whole card would crop some parts.
+* The images are not uniform on size, I've tried different configuration on how to fill the image on the card. For instance, trying to fill the whole card would crop some parts.
 Changes on the card dimensions to the most common sizes should help, but doesn't solve the problem. 
 Having the cards on different sizes, accordingly to the image dimensions would cause a broken UI. 
 
@@ -61,7 +61,7 @@ Boilerplate for ReactJS projects. Toolset:
 ## Contents
 
 - [Structure](#structure)
-- [How to run](#How to run)
+- [How to run](#Howtorun)
 
 ## Structure
 
@@ -88,6 +88,13 @@ Boilerplate for ReactJS projects. Toolset:
 Generates the distribution files in the dist folder
 ```shell
 yarn run build
+```
+
+### Run production
+
+After running build, start node server
+```shell
+yarn run start
 ```
 
 ### Develop
